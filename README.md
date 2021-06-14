@@ -6,3 +6,5 @@ Pre-configured with Auth and languages packages:
 * laravel/ui
 
 French language is imported
+
+The repository is configured with sqlite
