@@ -1,0 +1,21 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$enable-negative-margins: true;
+
+$border-radius-lg: .5rem;
+
+$box-shadow-sm: 0 .25rem .35rem rgba(#000, .15);
+
+$light: #a0aec0;
+$secondary: #718096;
+$link-color: $secondary;
+
+$headings-font-weight: 700;
+
+$h6-font-size: 1.125rem;
