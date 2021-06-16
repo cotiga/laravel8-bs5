@@ -26,7 +26,7 @@ If you're using *Valet* and want to configure *MailHog*, see https://ryangjchand
 Clone the repository in your dev environment
 
 * cd /my_dev_env/app/path
-* cp .env.example .env
+* cp .env.cotiga .env
 * touch database/database.sqlite
 * composer install
 * php artisan key:generate
