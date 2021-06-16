@@ -7,13 +7,19 @@
 
 ## Laravel 8 with Bootstrap 5 and Auth (laravel-ui)
 
-Pre-configured with languages packages (french language already imported)
+* Pre-configured with languages packages
+
+__French imported and set__
+
+To return to English, edit __config/app__ > __'locale' => 'en',__
+
+For other languages, see https://github.com/Laravel-Lang/lang/blob/master/docs/index.md
 
 ## configuration
 
-* .env.example is set to work with sqlite and MailHog
+*.env.example* is set to work with *SQLite* and *MailHog*
 
-If you're using Valet and want to configure MailHog, see https://ryangjchandler.co.uk/posts/setup-mailhog-with-laravel-valet
+If you're using *Valet* and want to configure *MailHog*, see https://ryangjchandler.co.uk/posts/setup-mailhog-with-laravel-valet
 
 ## Installation
 
