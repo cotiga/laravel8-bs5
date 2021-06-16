@@ -17,7 +17,7 @@ For other languages, see https://github.com/Laravel-Lang/lang/blob/master/docs/i
 
 ## configuration
 
-*.env.example* is set to work with *SQLite* and *MailHog*
+*.env.cotiga* is set to work with *SQLite* and *MailHog*
 
 If you're using *Valet* and want to configure *MailHog*, see https://ryangjchandler.co.uk/posts/setup-mailhog-with-laravel-valet
 
