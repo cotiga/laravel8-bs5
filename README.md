@@ -34,7 +34,21 @@ Clone the repository in your dev environment
 * npm install
 * npx mix
 
-## Packages added
+## Composer packages added
 
 * laravel-lang/lang
 * laravel/ui
+
+## NPM packages added
+
+* @popperjs/core
+* bootstrap
+* resolve-url-loader
+* sass
+* sass-loader
+
+## NPM packages removed
+
+* axios
+* lodash
+* postcss
