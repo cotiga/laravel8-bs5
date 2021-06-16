@@ -7,7 +7,7 @@
 
 ## Laravel 8 with Bootstrap 5 and Auth (laravel-ui)
 
-* Pre-configured with languages packages
+Pre-configured with *Laravel-Lang* languages package
 
 __French imported and set__
 
