@@ -32,11 +32,12 @@
                         <label class="form-check-label" for="remember">{{ __('Remember Me') }}</label>
                     </div>
                     
-                    <button type="submit" class="btn btn-dark">{{ __('Login') }}</button>
-
-                    @if (Route::has('password.request'))
-                        <a class="small ms-3" href="{{ route('password.request') }}">{{ __('Forgot Your Password?') }}</a>
-                    @endif
+                    <div class="d-flex align-items-center justify-content-end">
+                        @if (Route::has('password.request'))
+                            <a class="small" href="{{ route('password.request') }}">{{ __('Forgot Your Password?') }}</a>
+                        @endif
+                        <button type="submit" class="btn btn-dark ms-3">{{ __('Login') }}</button>
+                    </div>
                 </form>
             </div>
         </div>

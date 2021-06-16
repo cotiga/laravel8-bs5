@@ -36,7 +36,12 @@
                         <label for="password-confirm">{{ __('Confirm Password') }}</label>
                     </div>
 
-                    <button type="submit" class="btn btn-dark">{{ __('Register') }}</button>
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a class="small text-light" href="{{ route('login') }}">
+                            {{ __('Already registered?') }}
+                        </a>
+                        <button type="submit" class="btn btn-dark ms-3">{{ __('Register') }}</button>
+                    </div>
                 </form>
             </div>
         </div>

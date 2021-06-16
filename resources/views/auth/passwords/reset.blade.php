@@ -31,7 +31,9 @@
                         <label for="password-confirm">{{ __('Confirm Password') }}</label>
                     </div>
 
-                    <button type="submit" class="btn btn-dark">{{ __('Reset Password') }}</button>
+                    <div class="d-flex align-items-center justify-content-end">
+                        <button type="submit" class="btn btn-dark">{{ __('Reset Password') }}</button>
+                    </div>
                 </form>
             </div>
         </div>

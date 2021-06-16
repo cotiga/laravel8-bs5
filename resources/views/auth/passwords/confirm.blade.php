@@ -19,13 +19,14 @@
                         @enderror
                     </div>
 
-                    <button type="submit" class="btn btn-dark">{{ __('Confirm Password') }}</button>
-
-                    @if (Route::has('password.request'))
-                        <a class="btn btn-link" href="{{ route('password.request') }}">
-                            {{ __('Forgot Your Password?') }}
-                        </a>
-                    @endif
+                    <div class="d-flex align-items-center justify-content-end">
+                        @if (Route::has('password.request'))
+                            <a class="btn btn-link" href="{{ route('password.request') }}">
+                                {{ __('Forgot Your Password?') }}
+                            </a>
+                        @endif
+                        <button type="submit" class="btn btn-dark ms-3">{{ __('Confirm Password') }}</button>
+                    </div>
                 </form>
             </div>
         </div>
