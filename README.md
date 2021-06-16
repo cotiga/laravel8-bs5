@@ -9,7 +9,11 @@
 
 Pre-configured with languages packages (french language already imported)
 
-The repository is configured with sqlite
+## configuration
+
+* .env.example is set to work with sqlite and MailHog
+
+If you're using Valet and want to configure MailHog, see https://ryangjchandler.co.uk/posts/setup-mailhog-with-laravel-valet
 
 ## Installation
 
@@ -20,5 +24,11 @@ Clone the repository in your dev environment
 * touch database/database.sqlite
 * composer install
 * php artisan key:generate
+* php artisan migrate
 * npm install
 * npx mix
+
+## Packages added
+
+* laravel-lang/lang
+* laravel/ui
