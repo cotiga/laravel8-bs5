@@ -24,7 +24,7 @@
                             @enderror
                         </div>
 
-                        <button type="submit" class="btn btn-primary">{{ __('Send Password Reset Link') }}</button>
+                        <button type="submit" class="btn btn-dark">{{ __('Send Password Reset Link') }}</button>
                     </form>
                 </div>
             </div>
