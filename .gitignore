@@ -5,10 +5,12 @@
 /vendor
 .env
 .env.backup
+.lock
 .phpunit.result.cache
 docker-compose.override.yml
 Homestead.json
 Homestead.yaml
+lock.json
 npm-debug.log
 yarn-error.log
 /.idea
