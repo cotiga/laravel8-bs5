@@ -14,7 +14,8 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top border-bottom">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">{{ config('app.name', 'Laravel with bs5') }}</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#responsiveNavbar" aria-controls="responsiveNavbar" aria-expanded="false" aria-label="Switch">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#responsiveNavbar"
+                    aria-controls="responsiveNavbar" aria-expanded="false" aria-label="Switch">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="responsiveNavbar">
@@ -34,16 +35,20 @@
                         @endguest
                         @auth
                             <li class="nav-item dropdown">
-                                <a id="authDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a id="authDropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     {{ Auth::user()->name }}
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-md-end" aria-labelledby="authDropdown">
                                     <li>
-                                        <a class="dropdown-item small" aria-current="page" href="{{ url('/home') }}">{{ __('Dashboard') }}</a>
+                                        <a class="dropdown-item small" aria-current="page" href="{{ url('/home') }}">
+                                            {{ __('Dashboard') }}
+                                        </a>
                                     </li>
 
                                     <li>
-                                        <a class="dropdown-item small" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                        <a class="dropdown-item small" href="{{ route('logout') }}"
+                                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
                                     </li>
@@ -57,10 +62,10 @@
                 </div>
             </div>
         </nav>
-
         <main class="container">
             @yield('content')
         </main>
     </div>
+    <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
