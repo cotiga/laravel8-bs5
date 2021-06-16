@@ -15,7 +15,7 @@ To return to English, edit __config/app__ > __'locale' => 'en',__
 
 For other languages, see https://github.com/Laravel-Lang/lang/blob/master/docs/index.md
 
-## configuration
+## Configuration
 
 *.env.cotiga* is set to work with *SQLite* and *MailHog*
 
