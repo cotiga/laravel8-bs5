@@ -3116,6 +3116,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_js_src_collapse_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap/js/src/collapse.js */ "./node_modules/bootstrap/js/src/collapse.js");
 /* harmony import */ var bootstrap_js_dist_dropdown__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/js/dist/dropdown */ "./node_modules/bootstrap/js/dist/dropdown.js");
 /* harmony import */ var bootstrap_js_dist_dropdown__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_js_dist_dropdown__WEBPACK_IMPORTED_MODULE_1__);
+/* IMPORT BS5 PLUGINS */
 
 
 
