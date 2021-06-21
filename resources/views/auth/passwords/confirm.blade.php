@@ -12,12 +12,10 @@
                 <h1 class="h5">{{ __('Confirm Password') }}</h1>
                 <hr>
                 {{ __('Please confirm your password before continuing.') }}
-
-                <form method="POST" action="{{ route('password.confirm') }}">
+                <form method="post" action="{{ route('password.confirm') }}">
                     @csrf
-
                     <div class="form-floating my-3">
-                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="{{ __('Password') }}">
                         <label for="password">{{ __('Password') }}</label>
                         @error('password')
                             <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
